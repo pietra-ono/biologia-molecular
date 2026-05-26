@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.min.css">
+    <link rel="icon" href="svg/logo-icon-full.svg" type="image/x-icon" class="icone" />
+    <title>Biologia que você não sabia que precisava saber</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="index.html" target="_blank"><img src="svg/logo-icon.svg" alt="Logo" class="logo"></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html" target="_blank" class="menu-icon"><i class="bi bi-house"></i>Início</a></li>
+                <li><a href="saiba.html" class="active" class="menu-icon"><i class="bi bi-info-square"></i>Saiba
+                        mais</a></li>
+                <li><a href="sobre.html" target="_blank" class="menu-icon"><i class="bi bi-person-square"></i>Sobre</a>
+                </li>
+                <li><a href="fontes.html" target="_blank" class="menu-icon"><i
+                            class="bi bi-pencil-square"></i>Fontes</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="glossario-nav-topo reveal">
+        <div class="glossario-nav-container">
+            <div class="glossario-nav-titulo">
+                <i class="bi bi-journal-text"></i>
+                <span>Navegue pelo Glossário:</span>
+            </div>
+            <div class="glossario-letras-menu" id="glossarioLetrasMenuTopo">
+                <button class="letra-btn" data-letra="A" data-target="#letra-A">A</button>
+                <button class="letra-btn" data-letra="C" data-target="#letra-C">C</button>
+                <button class="letra-btn" data-letra="D" data-target="#letra-D">D</button>
+                <button class="letra-btn" data-letra="E" data-target="#letra-E">E</button>
+                <button class="letra-btn" data-letra="F" data-target="#letra-F">F</button>
+                <button class="letra-btn" data-letra="G" data-target="#letra-G">G</button>
+                <button class="letra-btn" data-letra="M" data-target="#letra-M">M</button>
+                <button class="letra-btn" data-letra="O" data-target="#letra-O">O</button>
+                <button class="letra-btn" data-letra="P" data-target="#letra-P">P</button>
+                <button class="letra-btn" data-letra="R" data-target="#letra-R">R</button>
+                <button class="letra-btn" data-letra="S" data-target="#letra-S">S</button>
+                <button class="letra-btn" data-letra="T" data-target="#letra-T">T</button>
+            </div>
+        </div>
+    </div>
+
+    <main>
+        <div class="container-sobreposto">
+
+            <div class="camada-fundo">
+                <img src="svg/fundo-papel.svg" alt="Fundo da galeria">
+            </div>
+
+            <div class="camada-conteudo" id="first-content">
+
+                <div class="galeria-titulo">
+                    <a>
+                        <img src="svg/1-papel2.svg" alt="Título da Galeria">
+                    </a>
+                </div>
+
+                <div class="grid-imagens">
+
+                    <div class="img-item">
+                        <a href="#" data-target="secao-um" class="ancora">
+                            <img src="svg/2-papel.svg" alt="Imagem 1"
+                                style="width: 490px; transform: translate(100px, -40px); rotate: -8.3deg;">
+                        </a>
+                    </div>
+
+                    <div class="img-item" data-target="secao-dois" class="ancora">
+                        <img src="gif/5-papel.gif" loading="lazy" alt="Imagem 2"
+                            style="width: 480px; transform: translate(60px, -20px);">
+                    </div>
+
+                    <div class="img-item" data-target="secao-tres" class="ancora">
+                        <img src="gif/7-papel.gif" loading="lazy" alt="Imagem 3"
+                            style="width: 600px; transform: translate(-40px, -8px); padding: 20px;">
+                    </div>
+
+                    <div class="img-item" data-target="secao-quatro" class="ancora">
+                        <img src="gif/3-papel.gif" loading="lazy" alt="Imagem 4"
+                            style="width: 600px; transform: translate(50px, -120px) rotate(4.6deg);">
+                    </div>
+
+                    <div class="img-item" data-target="secao-cinco" class="ancora">
+                        <img src="svg/4-papel.svg" alt="Imagem 5"
+                            style="width: 450px; transform: translate(-50px, -100px) rotate(2deg);">
+                    </div>
+
+                    <div class="img-item" data-target="secao-seis" class="ancora">
+                        <img src="svg/6-papel.svg" alt="Imagem 6"
+                            style="width: 480px; transform: translate(-90px, -100px);">
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <div class="photo-strip-animado">
+        <div class="photo-strip-inner"> <!--Trocar os emojis por imgs tipo revista sb-->
+            <span><i class="bi bi-question-diamond"></i> Teoria Endossimbiótica</span>
+            <span><i class="bi bi-info-square"></i>O que nossos cromossomos podem nos dizer?</span>
+            <span><i class="bi bi-search-heart"></i> Biologia que você não sabia que precisava saber</span>
+            <span><i class="bi bi-journal-text"></i> Na aba "Saiba mais" é possível encontrar um glossário!</span>
+            <span><i class="bi bi-leaf"></i> Lynn Margulis foi uma bióloga renomada conhecida principalmente por sua
+                Teoria Endossimbiótica</span>
+            <!-- repetido para loop -->
+            <span><i class="bi bi-question-diamond"></i> Teoria Endossimbiótica</span>
+            <span><i class="bi bi-info-square"></i> O que nossos cromossomos podem nos dizer?</span>
+            <span><i class="bi bi-search-heart"></i> Biologia que você não sabia que precisava saber</span>
+            <span><i class="bi bi-journal-text"></i> Na aba "Saiba mais" é possível encontrar um glossário!</span>
+            <span><i class="bi bi-leaf"></i> Lynn Margulis foi uma bióloga renomada conhecida principalmente por sua
+                Teoria Endossimbiótica</span>
+        </div>
+    </div>
+
+    <div id="conteudo" class="topics">
+
+        <article class="secao secao-intro reveal-section" id="secao-um">
+
+            <div class="titulo-centralizado">
+                <img src="svg/2-papel-texto.svg" alt="Título: Somos 100% humanos?" style="margin-right: 20%;">
+            </div>
+
+            <div class="topic-2">
+
+                <div class="contents">
+                    <div class="texto-papel texto-papel-lg">
+                        <div class="tape tape-h" aria-hidden="true"></div>
+                        <p>Pode não ser novidade que temos bactérias em nosso corpo, mas e em nosso DNA?
+                            A pergunta pode soar exagerada e curiosa, mas essa é
+                            uma das explicações mais aceitas da biologia moderna. A <span class="highlight-word">teoria
+                                endossimbiótica</span>. Segundo essa ideia, estruturas essenciais das nossas células,
+                            como as mitocôndrias, tiveram origem em antigas bactérias que, há bilhões de anos, foram
+                            englobadas
+                            por outras células e passaram a viver em simbiose.</p>
+                        <p>Mas qual a relação de tudo isso com "transgênicos"? Note que há uma relação de "dependência"
+                            agora (interdependência) entre mitocôndrias e seus hospedeiros, assim como os cloroplastos e
+                            seus hospedeiros. Isso porque, por conta dessa interdependência, o DNA dos cloroplastos e
+                            das
+                            mitocôndrias foi incorporado ao genoma do núcleo da célula hospedeira, resultando nessas
+                            organelas que conhecemos hoje. Nelas, sobrou apenas um pequeno resquício de DNA bacteriano e
+                            por isso elas são dependentes das células eucarióticas porque é o seu núcleo que produz
+                            proteínas essenciais para essas organelas funcionarem.
+                        </p>
+                        <p>
+                            Enfim, para começar a entender essa história cada vez melhor, pesquisas e leituras
+                            cautelosas são o
+                            ideal e, a seguir, será possível encontrar diversas recomendações sobre os diversos assuntos
+                            tratados pelo site.
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="stickers">
+                    <div class="fig-lateral">
+                        <img src="jpeg/Apostila - Biologia Molecular.jpeg" alt="Ilustração de célula com mitocôndria"
+                            style="margin-top: -80%;">
+                    </div>
+                    <div class="topic topic-inicio sobreposto-diagonal" role="complementary"
+                        style="margin-bottom: 10%;">
+                        <div class="pin red" aria-hidden="true"></div>
+                        <div class="note torn-top torn-bottom">
+                            <div class="note-title">Livro Didático sobre Biologia Molecular</div>
+                            <div class="note-desc">
+                                BOUZON, Zenilda Laurita; GARGIONI, Rogério; OURIQUES, Luciane
+                                Cristina. Biologia celular. 2. ed. Florianópolis: BIOLOGIA/EAD/UFSC, 2010. 238 p.
+                                Disponível em: <span
+                                    href="https://antigo.uab.ufsc.br/biologia/files/2020/08/Biologia-Celular.pdf"
+                                    target="_blank">https://antigo.uab.ufsc.br/biologia/files/2020/08/Biologia-Celular.pdf</span>.
+                                Acesso em: 15 abr 2026.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="fig-lateral">
+                        <img src="jpg/Mocelular Biology of The Cell.jpg" alt="Ilustração de célula com mitocôndria">
+                    </div>
+                    <div class="topic topic-inicio sobreposto-diagonal2" role="complementary">
+                        <div class="pin red" aria-hidden="true" style="margin-top: 30px;"></div>
+                        <div class="note torn-top torn-bottom" style="margin-top: 30px;">
+                            <div class="note-title">Livro sobre a Biologia Molecular da Célula</div>
+                            <div class="note-desc">Alberts, B., Johnson, A., Lewis, J., Morgan, D., Raff, M., Roberts,
+                                K., & Walter, P.
+                                (2015). Molecular Biology of the Cell (6th ed.). Garland Science.</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </article>
+
+        <article class="secao reveal-section" id="secao-quatro">
+
+            <div class="titulo-centralizado">
+                <img src="svg/3-papel-texto.svg" alt="Título: Seres humanos e cromossomos"
+                    style="width: 50%; margin-left: 20%">
+            </div>
+
+            <div class="content-duas-colunas">
+
+                <div class="imagem-lateral-com-postit">
+                    <img src="jpg/Molecular Biology of the Gene.jpg" alt="Animação de cromossomos"
+                        style="margin-top: -50%;">
+                    <div class="topic topic-cromossomos sobreposto-diagonal" role="complementary">
+                        <div class="pin blue" aria-hidden="true" style="margin-top: -100px;"></div>
+                        <div class="note torn-top torn-bottom" style="margin-top: -100px;">
+                            <div class="note-title">Livro sobre a Biologia Molecular do Gene</div>
+                            <div class="note-desc">Watson, J. D., Baker, T. A., Bell, S. P., Gann, A., Levine, M., &
+                                Losick, R. (2014). Molecular Biology of the Gene (7th ed.). Pearson.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="texto-papel">
+                    <div class="tape tape-v" aria-hidden="true"></div>
+                    <p>Para entender o quanto carregamos da nossa história evolutiva, é preciso olhar para dentro das
+                        nossas células. É ali que estão os cromossomos, estruturas que organizam o DNA e armazenam toda
+                        a informação genética herdada dos nossos pais. Eles funcionam como um
+                        verdadeiro “manual biológico”, contendo os genes responsáveis por definir desde características
+                        físicas até processos essenciais para o funcionamento do organismo.
+                    <p>Em seres humanos, cada célula possui 46 cromossomos, organizados em 23 pares. Metade vem da mãe,
+                        metade do pai, formando os chamados cromossomos homólogos (pares que
+                        carregam os mesmos tipos de genes, embora com variações). Entre eles, um par tem um papel
+                        especial: os cromossomos sexuais. Enquanto mulheres possuem dois cromossomos X (XX), homens
+                        possuem um X e um Y (XY), o que determina o sexo biológico.
+                    </p>
+                    <p>Mais do que estruturas de organização, os cromossomos são peças-chave para entender a
+                        hereditariedade e até mesmo diagnosticar doenças como trissomias ou monossomias. A análise
+                        permite que cientistas identifiquem alterações genéticas, reconstruir parte da história de um
+                        indivíduo e como veremos a seguir, até pistas muito mais antigas, que dão origem às bases da
+                        vida complexa.
+                    </p>
+                </div>
+
+            </div>
+        </article>
+
+        <article class="secao reveal-section" id="secao-cinco">
+
+            <div class="titulo-centralizado">
+                <img src="svg/4-papel-texto.svg" alt="Título: O motor da célula">
+            </div>
+
+            <div class="conteudo-duas-colunas">
+
+                <div class="texto-papel">
+                    <div class="tape tape-h tape-amarelo" aria-hidden="true"></div>
+                    <p> Para entender como as células funcionam, é preciso conhecer as organelas. Essas estruturas são
+                        como “compartimentos especializados” dentro da célula, cada uma com uma função específica,
+                        garantindo que o organismo funcione de forma organizada e eficiente.
+                    </p>
+                    <p>Entre essas organelas, duas se destacam por sua importância e por sua origem evolutiva: as
+                        mitocôndrias e os cloroplastos. Estima-se que o surgimento dessas organelas tenha ocorrido há
+                        cerca de 1,6 bilhões de anos, em um período em que o oxigênio já era abundante na atmosfera.
+                    </p>
+                    <p>No caso das mitocôndrias, uma antiga bactéria tornou-se responsável pela produção de energia na
+                        forma de ATP (como uma moeda energética), funcionando como um verdadeiro “motor” celular,
+                        mantendo características que evidenciam sua origem endossimbiótica: possuem seu próprio DNA e
+                        são capazes de produzir parte de suas proteínas, demonstrando um certo grau de autonomia. Além
+                        de desempenhar papéis fundamentais na regulação do metabolismo, no controle de reações de
+                        oxirredução e até na sinalização da morte celular programada. Os
+                        cloroplastos, por sua vez, são organelas presentes em plantas e algas, responsáveis pela
+                        fotossíntese. Eles também têm origem endossimbiótica, mas surgiram a partir da incorporação de
+                        cianobactérias capazes de realizar fotossíntese, processo no qual fornece energia para plantas e
+                        algas.
+                    </p>
+                </div>
+
+                <div class="stickers">
+                    <div class="fig-lateral">
+                        <img src="jpeg/Artigo - Semelhanças Humanas e etc.jpeg"
+                            alt="Ilustração de célula com mitocôndria" style="width: 500px;">
+                    </div>
+                    <div class="topic topic-motor sobreposto-diagonal" role="complementary">
+                        <div class="pin blue" aria-hidden="true" style="margin-top: -30px;"></div>
+                        <div class="note torn-top torn-bottom" style="margin-top: -30px;">
+                            <div class="note-title">Artigo sobre As Semelhanças entre Mitocôndrias Humanas e Bactérias
+                                no Contexto da Estrutura, Genoma e Sistema de Reparação por Excisão de Bases
+                            </div>
+                            <div class="note-desc">
+                                Boguszewska, K., Szewczuk, M., Kaźmierczak-Barańska, J., & Karwowski, B. T. (2020).
+                                The
+                                Similarities between Human Mitochondria and Bacteria in the Context of Structure,
+                                Genome, and Base Excision Repair System. Molecules, 25(12), 2857.</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </article>
+
+        <article class="secao reveal-section" id="secao-seis">
+
+            <div class="titulo-direita" style="margin-left: -10%; margin-bottom: -2%;">
+                <img src="svg/6-papel.svg" alt="Título: A Teoria" style="width: 50%;">
+            </div>
+
+            <div class="content-duas-colunas">
+
+                <div class="stickers">
+                    <div class="fig-lateral" style="margin-top: -30%;">
+                        <img src="svg/6-sticker.svg" alt="Fotografia da Lynn Margulis" style="width: 100%;">
+                    </div>
+                    <div class="topic topic-teoria sobreposto-diagonal" role="complementary" style="margin-bottom: 5%;">
+                        <div class="pin green" aria-hidden="true" style="margin-top: -20px;"></div>
+                        <div class="note torn-top torn-bottom" style="margin-top: -20px;">
+                            <div class="note-title">Fig 6 - Lynn Margulis</div>
+                            <div class="note-desc">
+                                Foto de Lynn Margulis enquanto participava do simpósio "150 años de Darwin" ("150 anos
+                                de
+                                Darwin") organizado pela Fundação Ramón Areces em Madrid, novembro de 2009.</div>
+                        </div>
+                    </div>
+
+                    <div class="fig-lateral" style="margin-top: 10%;">
+                        <img src="jpeg/Artigo - Teoria endossimbiótica para a origem dos organelas.jpeg"
+                            alt="animação do processo simplificado da endossimbiose">
+                    </div>
+                    <div class="topic topic-teoria sobreposto-diagonal2" role="complementary">
+                        <div class="pin green" aria-hidden="true"></div>
+                        <div class="note torn-top torn-bottom">
+                            <div class="note-title">Artigo sobre Teoria endossimbiótica para a origem dos organelas
+                            </div>
+                            <div class="note-desc">
+                                Zimorski, V., Ku, C., Martin, W. F., & Gould, S. B. (2014). Endosymbiotic theory for
+                                organelle origins. Current Opinion in Microbiology, 22, 38–48.
+                                https://doi.org/10.1016/j.mib.2014.09.008 </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="texto-papel">
+                    <p>O próprio nome já dá uma pista importante: “endo” significa “dentro”, e “simbiose”
+                        quer dizer “viver junto”. Em outras palavras, a endossimbiose descreve uma relação
+                        em que um organismo passa a viver dentro de outro após ser englobado por fagocitose.
+                    </p>
+                    <p>
+                        A teoria endossimbiótica, desenvolvida e popularizada pela bióloga Lynn Margulis,
+                        propõe que as células eucarióticas (aquelas que formam animais, plantas e fungos)
+                        surgiram a partir de uma associação íntima entre diferentes organismos procariontes.
+                        Em um passado distante, uma célula ancestral englobou outras células menores, mas,
+                        em vez de digeri-las, estabeleceu com elas uma relação de cooperação. Com o passar
+                        do tempo, essa convivência se tornou permanente. Os organismos internalizados
+                        passaram a se dividir junto com a célula hospedeira, trocar genes com ela e perder
+                        gradualmente sua independência, até se tornarem parte integrante da célula. Foi
+                        assim que surgiram organelas como as mitocôndrias, nos animais, e os cloroplastos,
+                        nas plantas; ambas com origem em antigos organismos de vida livre.
+                    </p>
+                    <p>
+                        Mas o que sustenta essa ideia? As evidências são múltiplas e vêm de diferentes áreas
+                        da biologia. Uma das mais fortes está no fato de que mitocôndrias e cloroplastos
+                        possuem características muito semelhantes às bactérias atuais. Elas têm seu próprio
+                        DNA, diferente do DNA nuclear, e apresentam semelhanças bioquímicas e fisiológicas
+                        com organismos procariontes, um indício de que já foram entidades independentes no
+                        passado. Além disso, existem exemplos modernos de organismos que vivem em relações
+                        endossimbióticas, mostrando que esse tipo de associação não é apenas um evento do
+                        passado. Certos fungos, por exemplo, abrigam algas em seu interior, e ambos podem
+                        viver separadamente na natureza, evidenciando estágios intermediários desse tipo de
+                        relação.
+                    </p>
+                    <p>
+                        No fim, a teoria endossimbiótica mostra que a evolução não é feita apenas de
+                        competição entre organismos, mas também de cooperação profunda. A célula eucariótica
+                        (base de toda a vida complexa) é o resultado de uma fusão bem-sucedida entre
+                        diferentes formas de vida que aprenderam a viver juntas.
+                    </p>
+                </div>
+
+            </div>
+        </article>
+
+        <article class="secao reveal-section" id="secao-tres">
+
+            <div class="titulo-centralizado" style="margin-bottom: 2%; margin-left: -1.8%;">
+                <img src="svg/7-papel-texto.svg" alt="Título: Herança Viral">
+            </div>
+
+            <div class="topic-2">
+                <div class="texto-papel">
+                    <p>Se a ideia de herança bacteriana já parece surpreendente, há um detalhe ainda mais inesperado:
+                        parte do seu DNA tem origem viral.</p>
+                    <p>Vírus da família Retroviridae possuem uma habilidade única: eles conseguem inserir seu material
+                        genético diretamente no DNA das células que infectam. Quando esse processo acontece em células
+                        reprodutivas, como óvulos ou espermatozoides, essa informação pode ser transmitida para as
+                        próximas gerações. Com o passar de milhões de anos, esses fragmentos virais foram sendo
+                        acumulados no genoma humano, tornando-se parte permanente da nossa história genética. Hoje,
+                        sabemos que o nosso DNA está repleto desses vestígios, muitos deles inativos, como “fósseis
+                        moleculares” de infecções antigas. Mas alguns não apenas permaneceram: eles foram reaproveitados
+                        pela evolução. Um exemplo impressionante vem de um estudo publicado na revista Nature, que
+                        investigava quais genes são ativados nos estágios iniciais do desenvolvimento embrionário. Nesse
+                        momento, as células ainda são pluripotentes, ou seja, podem dar origem a qualquer tecido do
+                        corpo. O que os cientistas descobriram foi surpreendente: mais de 100 elementos reguladores
+                        essenciais para ativar genes nesse processo têm origem em retrovírus ancestrais.
+                    </p>
+                    <p>Em outras palavras, “interruptores genéticos” fundamentais para o desenvolvimento humano vieram
+                        de antigas infecções virais. Sem eles, processos básicos da formação do embrião simplesmente não
+                        aconteceriam da forma como conhecemos hoje.
+                    </p>
+                </div>
+
+                <div class="imagem-lateral-com-postit">
+                    <img src="jpeg/Artigo - A potência das células-tronco embrionárias flutua com a atividade de retrovírus endógenos.jpeg"
+                        alt="Animação de retrovírus inserindo DNA" style="margin-top: -50%;">
+                    <div class="topic topic-virus sobreposto-diagonal" role="complementary">
+                        <div class="pin blue" aria-hidden="true"></div>
+                        <div class="note torn-top torn-bottom">
+                            <div class="note-title">Artigo sobre A potência das células-tronco embrionárias flutua com a
+                                atividade de retrovírus endógenos</div>
+                            <div class="note-desc">Macfarlan, T., Gifford, W., Driscoll, S. et al. Embryonic stem cell
+                                potency fluctuates with endogenous retrovirus activity. Nature 487, 57–63 (2012).
+                                https://doi.org/10.1038/nature11244
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+
+        <article class="secao secao-conclusao reveal-section" id="secao-dois">
+
+            <div class="titulo-centralizado" style="margin-bottom: -6%; margin-left: 6%;">
+                <img src="svg/5-papel-texto.svg" alt="Título: Conclusão" style="width: 46%;">
+            </div>
+
+            <div class="topic-3">
+
+                <div class="stickers" style="margin-top: -24%;">
+                    <div class="fig-lateral">
+                        <img src="jpeg/Artigo - TRANSFERÊNCIA GÊNICA ENDOSSIMBIÓTICA GENOMAS DE ORGANELOS FORJAM CROMOSSOMOS EUCARIÓTICOS.jpeg"
+                            alt="Ilustração de múltiplas organelas">
+                    </div>
+                    <div class="topic topic-dna sobreposto-diagonal2" role="complementary">
+                        <div class="pin blue" aria-hidden="true"></div>
+                        <div class="note torn-top torn-bottom">
+                            <div class="note-title">Transferência Gênia Endossimbiótica: Genomas de organelas forjam
+                                cromossomos eucarióticos</div>
+                            <div class="note-desc">
+                                Timmis JN, Ayliffe MA, Huang CY, Martin W. Endosymbiotic gene transfer: organelle
+                                genomes forge eukaryotic chromosomes. Nat Rev Genet. 2004 Feb;5(2):123-35. doi:
+                                10.1038/nrg1271. PMID: 14735123. </div>
+                        </div>
+                    </div>
+
+                    <div class="fig-lateral">
+                        <img src="gif/5-papel-fig.gif" loading="lazy" alt="Ilustração de múltiplas organelas">
+                    </div>
+                    <div class="topic topic-dna sobreposto-diagonal" role="complementary">
+                        <div class="pin blue" aria-hidden="true"></div>
+                        <div class="note torn-top torn-bottom">
+                            <div class="note-title">Fig 10 - Dupla Fita de DNA detalhada</div>
+                            <div class="note-desc">O genoma é o conjunto completo de DNA de um organismo, contendo todas
+                                as informações genéticas que determinam suas características e funcionamento.</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contents">
+                    <div class="texto-papel texto-papel-conclusao">
+                        <div class="tape tape-h tape-amarelo" aria-hidden="true"></div>
+                        <p>Estima-se que uma parcela significativa do genoma humano, frequentemente apontada como cerca
+                            de 40%, tenha origem em sequências virais, especialmente retrovírus. Isso revela algo ainda
+                            mais profundo: o nosso genoma não é apenas resultado da nossa própria linhagem evolutiva.
+                            Ele é um verdadeiro “museu biológico”, que acumulou ao longo do tempo fragmentos de
+                            diferentes origens: bactérias, arqueas e vírus.
+                        </p>
+                        <p>
+                            Seja nas mitocôndrias que produzem energia, nos cromossomos que organizam nosso DNA ou nos
+                            fragmentos virais escondidos no genoma, uma coisa fica clara: a vida complexa não surgiu de
+                            forma isolada.
+                        </p>
+                        <p>
+                            Nossos cromossomos são a prova viva de que a evolução é feita de encontros. Eles guardam
+                            genes herdados de bactérias ancestrais, sinais de interações com arqueias e até marcas
+                            deixadas por vírus antigos.
+                        </p>
+                        <p>
+                            Cada vez que uma célula do seu corpo se divide, ela não está apenas copiando DNA; está
+                            repetindo, silenciosamente, uma história que começou há bilhões de anos: a fusão entre
+                            diferentes formas de vida que aprenderam a existir juntas.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </article>
+
+        <section class="secao secao-video" aria-label="Tópicos do site">
+
+            <div class="board-titulo">
+                <h2>Endossimbiose</h2>
+                <p>O vídeo é inglês, mas você pode colocar legenda em português!</p>
+            </div>
+
+            <iframe width="845" height="503" src="https://www.youtube.com/embed/9i7kAt97XYU?si=bvGZdDlBembkE0JQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+
+            <p style="margin-top: 2%;">Vídeo feito por Adam Jacobson (educador), Camila Gunborg Pedersen (diretora) e
+                Addison Anderson (narrador).</p>
+
+        </section>
+
+        <article class="secao secao-glossario reveal-section">
+
+            <div class="titulo-centralizado">
+                <img src="svg/glossario-titulo.svg" alt="Glossário" style="width: 35%; margin-bottom: 20px;">
+            </div>
+
+            <div class="glossario-menu-interno">
+                <div class="glossario-menu-card">
+                    <div class="pin blue" aria-hidden="true"></div>
+                    <div class="note torn-top torn-bottom">
+                        <div class="note-title">Ir para a letra</div>
+                        <div class="glossario-letras-interno" id="glossarioLetrasMenuInterno">
+                            <button class="letra-interna-btn" data-letra="A" href="#letra-A">A</button>
+                            <button class="letra-interna-btn" data-letra="C">C</button>
+                            <button class="letra-interna-btn" data-letra="D">D</button>
+                            <button class="letra-interna-btn" data-letra="E">E</button>
+                            <button class="letra-interna-btn" data-letra="F">F</button>
+                            <button class="letra-interna-btn" data-letra="G">G</button>
+                            <button class="letra-interna-btn" data-letra="M">M</button>
+                            <button class="letra-interna-btn" data-letra="O">O</button>
+                            <button class="letra-interna-btn" data-letra="P">P</button>
+                            <button class="letra-interna-btn" data-letra="R">R</button>
+                            <button class="letra-interna-btn" data-letra="S">S</button>
+                            <button class="letra-interna-btn" data-letra="T">T</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="glossario-wrapper">
+                <div class="texto-papel texto-papel-conclusao glossario-papel">
+                    <div class="tape tape-h tape-amarelo" aria-hidden="true" style="width: 140px;"></div>
+
+                    <!-- Letra A -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-A">A</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">ATP (Trifosfato de Adenosina)</span>
+                            <p>Principal moeda energética presente nas células; é ela quem nos permite ter energia para
+                                fazermos tudo que precisamos fazer, como correr, respirar, comer, etc.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra C -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-C">C</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Células pluripotentes</span>
+                            <p>Células que são capazes de dar origem a qualquer célula de diferentes tecidos do corpo.
+                            </p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Cloroplastos</span>
+                            <p>Organelas presentes em células de plantas e algas responsáveis pela fotossíntese. Captam
+                                energia luminosa do Sol e a convertem em energia química, produzindo glicose e liberando
+                                oxigênio como resíduo. Têm origem endossimbiótica a partir de cianobactérias.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Cromossomos</span>
+                            <p>Estruturas constituídas por filamentos de cromatina, formadas por moléculas de DNA
+                                compactadas associadas a proteínas (histonas), presentes no núcleo das células. Sua
+                                principal função é controlar a função das células, armazenar e organizar a informação
+                                genética de um indivíduo através dos genes.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Cromossomos homólogos</span>
+                            <p>Pares de cromossomos semelhantes estruturalmente que carregam os mesmos tipos de genes,
+                                embora com variações, sendo um originado e herdado de cada progenitor.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Cianobactérias</span>
+                            <p>Bactérias fotossintetizantes ancestrais que, segundo a teoria endossimbiótica, foram
+                                englobadas por células eucarióticas primitivas, dando origem aos cloroplastos presentes
+                                em plantas e algas atuais.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra D -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-D">D</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">DNA (Ácido desoxirribonucleico)</span>
+                            <p>Polímero que possui duas cadeias polinucleotídicas formando uma dupla hélice; é a
+                                molécula responsável por carregar todas as instruções genéticas de um organismo.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">DNA mitocondrial</span>
+                            <p>Molécula de DNA circular presente no interior das mitocôndrias, herdada exclusivamente da
+                                linhagem materna na maioria dos organismos. Sua presença é uma das principais evidências
+                                da origem endossimbiótica dessas organelas.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra E -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-E">E</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Endossimbiose</span>
+                            <p>Relação simbiótica em que um organismo vive dentro do corpo ou das células de outro
+                                organismo hospedeiro. A teoria endossimbiótica propõe que organelas como mitocôndrias e
+                                cloroplastos surgiram a partir desse tipo de associação.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra F -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-F">F</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Fagocitose</span>
+                            <p>Processo celular onde uma célula utiliza projeções de seu citoplasma para englobar
+                                partículas grandes (como restos celulares ou bactérias, por exemplo).</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Fósseis moleculares</span>
+                            <p>Sequências genéticas remanescentes de organismos ancestrais, como fragmentos virais ou
+                                bacterianos, que permanecem no genoma de organismos atuais como evidência de interações
+                                evolutivas passadas.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra G -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-G">G</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Genoma</span>
+                            <p>Soma de todo o material genético hereditário de um organismo.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Genes</span>
+                            <p>Segmentos de DNA que contêm as instruções para a produção de proteínas ou moléculas de
+                                RNA funcional, sendo as unidades fundamentais da hereditariedade.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra M -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-M">M</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Microrganismos</span>
+                            <p>São seres vivos microscópicos que só podem ser observados com o auxílio de um microscópio
+                                e desempenham papéis essenciais na natureza e na saúde humana.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Mitocôndrias</span>
+                            <p>Organelas responsáveis pela produção de energia na forma de ATP, funcionando como um
+                                verdadeiro "motor" celular. Possuem seu próprio DNA e são capazes de produzir parte de
+                                suas proteínas, evidências diretas de sua origem endossimbiótica a partir de antigas
+                                bactérias.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Monossomia</span>
+                            <p>Tipo de aneuploidia caracterizada pela ausência de um cromossomo em um par, resultando em
+                                apenas uma cópia (em vez do par normal). Exemplo: Síndrome de Turner (monossomia do
+                                cromossomo X).</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Mutualismo</span>
+                            <p>Relação simbiótica na qual ambos os organismos envolvidos se beneficiam mutuamente.
+                                Exemplo clássico: peixes-palhaço e anêmonas-do-mar.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra O -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-O">O</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Organelas</span>
+                            <p>Estruturas subcelulares especializadas, presentes no citoplasma de células eucarióticas,
+                                cada uma desempenhando funções específicas essenciais para o funcionamento celular (ex:
+                                mitocôndrias, cloroplastos, retículo endoplasmático, complexo de Golgi).</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Organismos eucariontes</span>
+                            <p>Organismos uni ou pluricelulares cujas células possuem estrutura mais complexa, com
+                                núcleo definido e organelas membranosas. Sua molécula de DNA é linear. Exemplos:
+                                animais, plantas e fungos.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Organismos procariontes</span>
+                            <p>Organismos unicelulares que possuem células de funcionamento mais simples e estrutura
+                                reduzida, sem núcleo definido (material genético disperso no citoplasma). Sua molécula
+                                de DNA é única e circular. Exemplos: bactérias e arqueias.</p>
+                        </div>
+                    </div>
+
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-P">P</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">PAEG (Plano de Atividade de Extensão na Graduação)</span>
+                            <p>Ferramenta que vincula as atividades de extensão ao histórico escolar do estudante,
+                                permitindo o registro de créditos curriculares. Os docentes o utilizam para definir
+                                quais ações extensionistas os alunos realizarão como parte obrigatória de sua formação,
+                                em sintonia com o Projeto Político-Pedagógico (PPP) de cada curso.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra R -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-R">R</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Retrovírus</span>
+                            <p>Família de vírus com capacidade de inserir seu material genético diretamente no DNA das
+                                células infectadas através da enzima transcriptase reversa. Retrovírus endógenos são
+                                fragmentos virais integrados ao genoma e transmitidos hereditariamente.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Retrovírus endógenos</span>
+                            <p>Sequências genéticas de origem viral que foram incorporadas ao genoma de organismos ao
+                                longo da evolução e são transmitidas de geração em geração. Representam cerca de 8% do
+                                genoma humano e alguns foram cooptados para funções celulares essenciais.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra S -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-S">S</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Simbiose</span>
+                            <p>Qualquer interação próxima e prolongada entre organismos de espécies diferentes, seja
+                                benéfica (mutualismo), neutra (comensalismo) ou prejudicial (parasitismo), podendo
+                                impactar direta ou indiretamente a vida de ambos os envolvidos.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Simbiogênese</span>
+                            <p>Teoria que propõe que a evolução das espécies ocorre não apenas por competição e seleção
+                                natural, mas também por associações simbióticas que geram novos organismos. Lynn
+                                Margulis foi uma das principais defensoras dessa ideia.</p>
+                        </div>
+                    </div>
+
+                    <!-- Letra T -->
+                    <div class="glossario-letra">
+                        <h3 class="glossario-letra-titulo" id="letra-T">T</h3>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Teoria Endossimbiótica</span>
+                            <p>Teoria proposta e popularizada pela bióloga Lynn Margulis que explica a origem das
+                                células eucarióticas a partir da associação íntima entre diferentes organismos
+                                procariontes. Segundo essa teoria, mitocôndrias e cloroplastos originaram-se de
+                                bactérias ancestrais que foram englobadas e passaram a viver em simbiose permanente
+                                dentro de células hospedeiras.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Transferência horizontal de genes</span>
+                            <p>Processo pelo qual organismos transferem material genético entre si sem serem
+                                descendentes diretos uns dos outros. Esse fenômeno é comum entre bactérias e também
+                                ocorreu na evolução inicial das células eucarióticas.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Transferência gênica endossimbiótica</span>
+                            <p>Processo evolutivo no qual genes originalmente presentes no genoma de organelas
+                                (mitocôndrias ou cloroplastos) são transferidos para o núcleo da célula hospedeira,
+                                integrando-se aos cromossomos eucarióticos.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Transgênicos</span>
+                            <p>Organismos que receberam gene(s) de outra espécie, adquirindo características novas.</p>
+                        </div>
+                        <div class="glossario-termo">
+                            <span class="glossario-termo-nome">Trissomia</span>
+                            <p>Tipo de aneuploidia caracterizada pela presença de um cromossomo a mais em um par,
+                                formando um trio (três cópias em vez do par normal). Exemplo: Síndrome de Down
+                                (trissomia do cromossomo 21).</p>
+                        </div>
+                    </div>
+
+                    <div class="glossario-nota">
+                        <i class="bi bi-bookmark-star"></i>
+                        <p>
+                            Glossário em constante construção. Fique à vontade para sugerir novos termos ou definições
+                            via e-mail <a href="mailto:endossimbiose.cromossomo@gmail.com?subject=Glossário"
+                                target="_blank">endossimbiose.cromossomo@gmail.com</a>.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+
+        </article>
+
+    </div>
+
+    <footer id="rodape" role="contentinfo">
+
+        <div class="rodape-inner">
+
+            <div class="rodape-logo">
+                <img src="svg/logo-icon.svg" alt="Logo Como?">
+                <p class="rodape-slogan">Biologia que você não sabia que precisava saber.</p>
+            </div>
+
+            <nav class="rodape-nav" aria-label="Menu do rodapé">
+                <h3>Menu</h3>
+                <ul role="list">
+                    <li><a href="index.html" target="_blank" class="menu-icon"><i class="bi bi-house"></i>Início</a>
+                    </li>
+                    <li><a href="saiba.html" target="_blank" class="menu-icon"><i class="bi bi-info-square"></i>Saiba
+                            mais</a></li>
+                    <li><a href="sobre.html" target="_blank" class="menu-icon"><i
+                                class="bi bi-person-square"></i>Sobre</a></li>
+                    <li><a href="fontes.html" target="_blank" class="menu-icon"><i
+                                class="bi bi-pencil-square"></i>Fontes</a></li>
+                </ul>
+            </nav>
+
+            <nav class="rodape-nav" aria-label="Tópicos">
+                <h3>Tópicos</h3>
+                <ul role="list">
+                    <li><a href="index.html#secao-um" target="_blank"><i class="bi bi-dot"></i>O Começo</a></li>
+                    <li><a href="index.html#secao-quatro" target="_blank"><i class="bi bi-dot"></i>Seres humanos e
+                            cromossomos</a></li>
+                    <li><a href="index.html#secao-cinco" target="_blank"><i class="bi bi-dot"></i>O motor da célula</a>
+                    </li>
+                    <li><a href="index.html#secao-seis" target="_blank"><i class="bi bi-dot"></i>O que é a TEORIA
+                            endossimbiótica?</a></li>
+                    <li><a href="index.html#secao-tres" target="_blank"><i class="bi bi-dot"></i>VÍRUS NO DNA?</a></li>
+                    <li><a href="index.html#secao-dois" target="_blank"><i class="bi bi-dot"></i>O DNA NÃO É SÓ
+                            NOSSO?</a></li>
+                </ul>
+            </nav>
+
+
+
+            <div class="rodape-credito">
+                <h3>Créditos</h3>
+                <p>Conteúdo produzido para fins educacionais.</p>
+                <p>Para dúvidas ou sugestões, envie um e-mail para <a href="mailto:endossimbiose.cromossomo@gmail.com"
+                        target="_blank">endossimbiose.cromossomo@gmail.com</a>.</p>
+                <p>Referências bibliográficas disponíveis em <a href="fontes.html" target="_blank">"Fontes"</a>.</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
